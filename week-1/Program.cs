@@ -49,7 +49,40 @@ namespace week_1
             // Console.WriteLine("A tractor:");
             // Console.WriteLine($"There is {tractor}!");
 
+            // math is the same
+            // + - / * %
 
+            // int a = 4 + 1 - 3 * 23 / 4 % 2;
+            // Console.WriteLine(a);
+            // a += 23;
+            // Console.WriteLine(a);
+            // Increment and decrement are ++a and --a
+
+            // Division of int produces int
+            // Must use double to get decimal
+            // Remainer is modulus %
+
+            // Can convert using type casting
+
+            // Implicit conversion
+            // Any smaller num type can fit inside a bigger num type
+            // int num = 123;
+            // long bigNum = num;
+
+            // Explicit conversion
+            // double x = 123.4;
+            // int a;
+            // a = (int)x;
+            // Console.WriteLine(a);
+
+            // // Seconds in a year
+            // int second = 1;
+            // int secondsInMinute = second * 60;
+            // int secondsInHour = secondsInMinute * 60;
+            // int secondsInDay = secondsInHour * 24;
+            // int secondsInYear = secondsInDay * 365;
+
+            // Console.WriteLine($"There are {secondsInYear} seconds in a year.");
         }
     }
 }
