@@ -1,0 +1,11 @@
+/home/reuben/Projects/CSharp/MOOC-OOP/week-1/obj/Debug/netcoreapp2.2/week-1.csprojAssemblyReference.cache
+/home/reuben/Projects/CSharp/MOOC-OOP/week-1/obj/Debug/netcoreapp2.2/week-1.csproj.CoreCompileInputs.cache
+/home/reuben/Projects/CSharp/MOOC-OOP/week-1/obj/Debug/netcoreapp2.2/week-1.AssemblyInfoInputs.cache
+/home/reuben/Projects/CSharp/MOOC-OOP/week-1/obj/Debug/netcoreapp2.2/week-1.AssemblyInfo.cs
+/home/reuben/Projects/CSharp/MOOC-OOP/week-1/bin/Debug/netcoreapp2.2/week-1.deps.json
+/home/reuben/Projects/CSharp/MOOC-OOP/week-1/bin/Debug/netcoreapp2.2/week-1.runtimeconfig.json
+/home/reuben/Projects/CSharp/MOOC-OOP/week-1/bin/Debug/netcoreapp2.2/week-1.runtimeconfig.dev.json
+/home/reuben/Projects/CSharp/MOOC-OOP/week-1/bin/Debug/netcoreapp2.2/week-1.dll
+/home/reuben/Projects/CSharp/MOOC-OOP/week-1/bin/Debug/netcoreapp2.2/week-1.pdb
+/home/reuben/Projects/CSharp/MOOC-OOP/week-1/obj/Debug/netcoreapp2.2/week-1.dll
+/home/reuben/Projects/CSharp/MOOC-OOP/week-1/obj/Debug/netcoreapp2.2/week-1.pdb
