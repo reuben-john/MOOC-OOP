@@ -83,6 +83,15 @@ namespace week_1
             // int secondsInYear = secondsInDay * 365;
 
             // Console.WriteLine($"There are {secondsInYear} seconds in a year.");
+
+            // Concontenating uses + still
+            // It takes order of operations into play
+
+            int a = 5;
+            int b = 4;
+            Console.WriteLine(a + " + " + b + " = " + (a + b));
+            Console.WriteLine(a + " * " + b + " = " + (a * b));
+
         }
     }
 }
