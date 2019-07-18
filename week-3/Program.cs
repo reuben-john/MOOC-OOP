@@ -28,11 +28,21 @@ namespace week_3
             // for each loops are the same
             // can be used on anything that is enumerable
 
-            // AddWords();
+            AddWords();
 
 
         }
 
+        static bool RecurringWords(List<string> words, string word)
+        {
+            if (words.IndexOf(word) >= 0)
+            {
+                Console.WriteLine($"You already added {word}.");
+                return false;
+            }
+            return true;
+
+        }
         static void AddWords()
         {
             List<string> words = new List<string>();
@@ -46,7 +56,7 @@ namespace week_3
                 {
                     break;
                 }
-                else
+                else if (RecurringWords(words, word))
                 {
                     words.Add(word);
                 }
