@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace week_3
 {
@@ -12,8 +13,50 @@ namespace week_3
             // everything is affected by scope
             // methods need a return type - void for no return type
 
-            double answer = average(1, 4, 23, 27);
-            Console.WriteLine(answer);
+            // double answer = average(1, 4, 23, 27);
+            // Console.WriteLine(answer);
+
+            // Strings are mostly the same as well, just different names
+            // C# has lots of basic features to do common tasks
+            // substrings are also the same as are indexes
+
+
+            // Arrays are mostly the same as well
+            // can make arrays of specific size or do it dynamically
+            // must have the type though
+
+            // for each loops are the same
+            // can be used on anything that is enumerable
+
+            // AddWords();
+
+
+        }
+
+        static void AddWords()
+        {
+            List<string> words = new List<string>();
+
+
+            Console.WriteLine("Please enter a word: ");
+            while (true)
+            {
+                string word = Console.ReadLine();
+                if (String.IsNullOrEmpty(word))
+                {
+                    break;
+                }
+                else
+                {
+                    words.Add(word);
+                }
+            }
+            Console.WriteLine("You entered these words:");
+            foreach (var word in words)
+            {
+
+                Console.WriteLine(word);
+            }
         }
         static double average(int num1, int num2, int num3, int num4)
         {
