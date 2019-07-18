@@ -87,10 +87,30 @@ namespace week_1
             // Concontenating uses + still
             // It takes order of operations into play
 
-            int a = 5;
-            int b = 4;
-            Console.WriteLine(a + " + " + b + " = " + (a + b));
-            Console.WriteLine(a + " * " + b + " = " + (a * b));
+            // int a = 5;
+            // int b = 4;
+            // Console.WriteLine(a + " + " + b + " = " + (a + b));
+            // Console.WriteLine(a + " * " + b + " = " + (a * b));
+
+
+            // Reading from console input
+            // Console.Write("What is your name?  ");
+            // string name = Console.ReadLine();
+            // Console.WriteLine($"Hello {name}.");
+            // Console.Write("How old are you?   ");
+            // int age = int.Parse(Console.ReadLine());
+            // Console.WriteLine($"Wow, {age} is so old!");
+
+            // Adder
+            Console.Write("Type a number: ");
+            int x = int.Parse(Console.ReadLine());
+            Console.Write("Type another number: ");
+            int y = int.Parse(Console.ReadLine());
+            Console.WriteLine($"The sum of those numbers is {x + y}");
+
+            // Divider
+            Console.WriteLine($"{x} / {y} = {x / y}");
+
 
         }
     }
