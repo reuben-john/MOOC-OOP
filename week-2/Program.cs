@@ -28,6 +28,9 @@ namespace week_2
             //     int sum = sumSet(int.Parse(Console.ReadLine()));
             //     Console.WriteLine($"Total: {sum}");
 
+            // methods are mostly the same
+            // can still call other methods and such
+
         }
 
         // static int sumSet(int max, int min = 1)
